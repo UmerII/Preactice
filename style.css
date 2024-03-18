@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+img{
+    margin-top: 100px;
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 1px 20px black;
+    
+    
+}
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

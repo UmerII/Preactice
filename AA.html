@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button-2{
+            width: 200px;
+            height: 100px;
+            /* background-color: rgb(130, 137, 238); */
+            /* color: rgb(255, 255, 255); */
+
+            /* border: 2px solid red; */
+        }
+        .button-1{
+            margin-left: 500px;
+            margin-top: 300px;
+            /* color: rgb(192, 31, 31); */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="button-1">
+    <button class="button-2" id="click-1" onclick="Hide()">Hide</button> 
+    </div>
+
+
+    <script>
+function Hide(){
+    var click = document.getElementById('click-1');
+    if(click.style.display=="none")
+    {
+        click.style.display=="block";
+    }
+
+    else
+    {
+        click.style.display="none";
+    }
+}
+    </script>
+</body>
+</html>
